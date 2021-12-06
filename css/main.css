@@ -11,6 +11,7 @@
 .header {
   height: 60px;
   padding: 0 100px;
+  margin-top: 30px;
 }
 
 .header__logo,
@@ -119,3 +120,204 @@
 }
 
 /* end banner */
+
+/* start welcome */
+.welcome {
+  padding: 50px 100px;
+  height: 980px;
+}
+
+.welcome h2 {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.welcome .welcome__content {
+  padding: 0 200px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.welcome__item {
+  float: left;
+  width: 50%;
+  height: 400px;
+}
+
+.welcome__item img {
+  width: 100%;
+  height: 100%;
+}
+
+.welcome__para__item {
+  margin: 30px 0;
+}
+
+.welcome__para__item h3 {
+  margin: 16px 0;
+  font-size: 30px;
+  font-weight: 400;
+  color: #eb5524;
+}
+
+.welcome__para__item i {
+  color: #34c3ff;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.welcome__para__item p {
+  margin-left: 42px;
+}
+/* end welcome */
+/* start work */
+.work {
+  padding: 50px 100px;
+  height: 900px;
+}
+
+.work h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+img {
+  float: left;
+  width: 33.33%;
+  padding: 4px;
+}
+/* end work */
+/* start succees */
+.succees {
+  padding: 50px 100px;
+  height: 600px;
+}
+.succees h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.succees__list,
+.succees__img {
+  float: left;
+  width: 50%;
+}
+
+.succees__list .succees__item {
+  margin-bottom: 30px;
+}
+
+.succees__list h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.succees__item li {
+  margin: 12px 0;
+  color: black;
+  opacity: 0.7;
+  list-style: none;
+}
+
+.succees__item i {
+  margin-right: 10px;
+  color: #29c0ff;
+}
+/* ************** */
+.succees__img {
+  height: 340px;
+  background-image: url(/images-layout1/index-serives.jpg);
+  background-size: cover;
+}
+
+.succees__img ul {
+  padding-left: 70px;
+}
+
+.succees__img li {
+  list-style: none;
+  margin: 28px 0;
+  font-size: 26px;
+  color: #29c0ff;
+  font-weight: 600;
+}
+.succees__img span {
+  font-size: 20px;
+  color: white;
+  margin-left: 30px;
+  font-weight: 400;
+}
+/* end succees */
+
+/* satrt footer */
+.footer {
+  height: 400px;
+  background-color: #242424;
+  padding: 0 100px;
+}
+
+.footer__item {
+  float: left;
+  width: 25%;
+  padding-right: 30px;
+}
+
+.footer__item ul {
+  list-style: none;
+}
+
+.footer__item li {
+  margin: 10px 0;
+  color: white;
+  opacity: 0.5;
+}
+
+.footer__item p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__item h3 {
+  font-size: 24px;
+  padding: 50px 0 20px;
+  color: white;
+}
+
+.item__input {
+  position: relative;
+  margin-top: 20px;
+}
+
+.item__input input {
+  height: 30px;
+  width: 250px;
+  color: #bababa;
+  padding: 10px;
+}
+
+.item__input button {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: #eb5424;
+  border: none;
+  color: white;
+  left: 190px;
+}
+
+.footer__item .footer__logo {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.footer__item p {
+  line-height: 30px;
+}
+
+.footer__item span {
+  color: #cf4824;
+  opacity: 1;
+}
+/* end footer */
